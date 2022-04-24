@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/react-slam-page/static/css/main.b6699e28.css",
-    "main.js": "/react-slam-page/static/js/main.cf3a7f70.js",
+    "main.js": "/react-slam-page/static/js/main.4d2bc75b.js",
     "static/media/Background2.png": "/react-slam-page/static/media/Background2.173b1cf39774b08b8bb2.png",
     "static/media/upiitaIcon.png": "/react-slam-page/static/media/upiitaIcon.1f54d3f699e5a5c9b163.png",
     "static/media/IPN_LOGO.webp": "/react-slam-page/static/media/IPN_LOGO.9b7740911035c96720ab.webp",
     "index.html": "/react-slam-page/index.html",
     "main.b6699e28.css.map": "/react-slam-page/static/css/main.b6699e28.css.map",
-    "main.cf3a7f70.js.map": "/react-slam-page/static/js/main.cf3a7f70.js.map"
+    "main.4d2bc75b.js.map": "/react-slam-page/static/js/main.4d2bc75b.js.map"
   },
   "entrypoints": [
     "static/css/main.b6699e28.css",
-    "static/js/main.cf3a7f70.js"
+    "static/js/main.4d2bc75b.js"
   ]
 }
