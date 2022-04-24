@@ -1,16 +1,13 @@
 {
   "files": {
-    "main.css": "/react-slam-page/static/css/main.073c9b0a.css",
-    "main.js": "/react-slam-page/static/js/main.eb16b2c3.js",
-    "static/js/787.890bb963.chunk.js": "/react-slam-page/static/js/787.890bb963.chunk.js",
-    "static/media/logo.svg": "/react-slam-page/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/react-slam-page/static/css/main.964fdded.css",
+    "main.js": "/react-slam-page/static/js/main.9971cb38.js",
     "index.html": "/react-slam-page/index.html",
-    "main.073c9b0a.css.map": "/react-slam-page/static/css/main.073c9b0a.css.map",
-    "main.eb16b2c3.js.map": "/react-slam-page/static/js/main.eb16b2c3.js.map",
-    "787.890bb963.chunk.js.map": "/react-slam-page/static/js/787.890bb963.chunk.js.map"
+    "main.964fdded.css.map": "/react-slam-page/static/css/main.964fdded.css.map",
+    "main.9971cb38.js.map": "/react-slam-page/static/js/main.9971cb38.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.eb16b2c3.js"
+    "static/css/main.964fdded.css",
+    "static/js/main.9971cb38.js"
   ]
 }
