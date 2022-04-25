@@ -1,0 +1,24 @@
+.spinner {
+  display: flex;
+  justify-content: center;
+}
+
+.spinning {
+  animation: spinner .8s infinite;
+  color: rgb(120, 253, 255);
+  margin: auto;
+  width: '100%';
+  border: '3px solid green';
+  padding: '0px';
+  margin-top: 300px;
+  border-radius: 50px;
+  background: #001736;
+  box-shadow:  2px 2px 10px #2c568b,
+             -2px -2px 10px #3c74bd;
+}
+
+@keyframes spinner {
+  to {
+      transform: rotate(360deg);
+  }
+}
