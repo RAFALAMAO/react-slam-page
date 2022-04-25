@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/react-slam-page/static/css/main.9991781e.css",
-    "main.js": "/react-slam-page/static/js/main.bc348d9f.js",
+    "main.js": "/react-slam-page/static/js/main.2dd701f6.js",
     "index.html": "/react-slam-page/index.html",
     "main.9991781e.css.map": "/react-slam-page/static/css/main.9991781e.css.map",
-    "main.bc348d9f.js.map": "/react-slam-page/static/js/main.bc348d9f.js.map"
+    "main.2dd701f6.js.map": "/react-slam-page/static/js/main.2dd701f6.js.map"
   },
   "entrypoints": [
     "static/css/main.9991781e.css",
-    "static/js/main.bc348d9f.js"
+    "static/js/main.2dd701f6.js"
   ]
 }
