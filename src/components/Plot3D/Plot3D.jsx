@@ -51,14 +51,24 @@ export default function Plot3D({resetAnimation, data, layout }) {
             <li>The map can be downloaded as an image in the top menu of the graph.</li>
           </Ul>
 
-          <p style={{'fontSize': '14px'}}>In the following links you can consult the <span> </span>
-            <a style={{color: 'rgb(130, 247, 255)', 'fontSize': '13px'}}
+          <p style={{'fontSize': '14px'}}>You can consult the <span> </span>
+              <a style={{color: 'rgb(130, 247, 255)'}}
               href="https://raw.githubusercontent.com/AaronJuarezT/ORBSLAM2prueba/c2c4fb1575d5d83cf58878b9225feab7b3f259df/mapAndTrajectory.csv"
               target="_blank"
-              rel="noreferrer">Github base data</a>
-              <span> </span> and the tool used to graph:<span> </span>
-            <a style={{color: 'rgb(130, 247, 255)', 'fontSize': '13px'}}
-            href="https://plotly.com/javascript/">Plotly</a>.
+              rel="noreferrer">
+              used data</a>
+              , the<span> </span>
+              <a style={{color: 'rgb(130, 247, 255)'}}
+              href="https://github.com/RAFALAMAO/react-slam-page/tree/master"
+              target="_blank"
+              rel="noreferrer">
+              source code</a>
+              <span> </span>of this page and the tool used to graph:<span> </span>
+              <a style={{color: 'rgb(130, 247, 255)'}}
+              href="https://plotly.com/javascript/react/"
+              target="_blank"
+              rel="noreferrer">
+              Plotly</a>.
           </p>
           <H3>Satellite view</H3>
           <img src="img/vistaSatelital.png" style={satelliteView} alt='IPN_LOGO'/>
