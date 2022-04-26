@@ -57,18 +57,25 @@ export default function Plot3D({resetAnimation, data, layout }) {
               target="_blank"
               rel="noreferrer">
               used data</a>
-              , the<span> </span>
+              ,<span> </span>
               <a style={{color: 'rgb(130, 247, 255)'}}
               href="https://github.com/RAFALAMAO/react-slam-page/tree/master"
               target="_blank"
               rel="noreferrer">
               source code</a>
-              <span> </span>of this page and the tool used to graph:<span> </span>
+              <span> </span>of this page, full ORBSLAM <span> </span>
+              <a style={{color: 'rgb(130, 247, 255)'}}
+              href="https://youtu.be/6Fv7bVzNU6c"
+              target="_blank"
+              rel="noreferrer">
+              proyect video</a>
+              <span> </span>or the <span> </span>
               <a style={{color: 'rgb(130, 247, 255)'}}
               href="https://plotly.com/javascript/react/"
               target="_blank"
               rel="noreferrer">
-              Plotly</a>.
+              tool</a>
+              <span> </span>used to graph.
           </p>
           <H3>Satellite view</H3>
           <img src="img/vistaSatelital.png" style={satelliteView} alt='IPN_LOGO'/>
