@@ -48,6 +48,24 @@ export const Container = styled.div`
   text-align: left;
   font-family: 'Space Grotesk', sans-serif;
   font-size: 25px;
+
+  @media ${(props) => props.theme.breakpoints.md} {
+    grid-column-gap: 3rem;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding-bottom: 10px;
+
+    gap: 10px;
+  }
+
+  // @media ${(props) => props.theme.breakpoints.sm} {
+  //   grid-column-gap: 3rem;
+  //   grid-template-columns: 1fr;
+  //   grid-template-rows: 1fr 1fr;
+  //   padding-bottom: 10px;
+
+  //   gap: 10px;
+  // }
 `
 
 export const H3 = styled.h3`

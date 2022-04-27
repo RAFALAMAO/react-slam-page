@@ -18,4 +18,8 @@ export const P2 = styled.p`
   font-family: 'Space Grotesk', sans-serif;
   font-size: 16px;
   color: rgba(128,128,128, 0.5);
+
+  @media ${(props) => props.theme.breakpoints.sm} {
+    font-size: 11px;
+  }
 `

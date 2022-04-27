@@ -7,6 +7,8 @@ import Plot3D from './components/Plot3D/Plot3D';
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
 import Spinner from './components/Spinner/Spinner';
+import { ThemeProvider } from 'styled-components';
+import theme from "./themes/default";
 
 export function App() {
 
@@ -44,15 +46,17 @@ export function App() {
 
   return (
     <>
-    {
-      fetching ? <Spinner/>: (
-        <div>
-          <Header/>
-          <Plot3D resetAnimation={{function:resetDelayanimation, value:delayAnimation}} data={data} layout={layout} />
-          <Footer/>
-        </div>
-      )
-    }
+    <ThemeProvider theme={theme}>
+      {
+        fetching ? <Spinner/>: (
+          <div>
+            <Header/>
+            <Plot3D resetAnimation={{function:resetDelayanimation, value:delayAnimation}} data={data} layout={layout} />
+            <Footer/>
+          </div>
+        )
+      }
+    </ThemeProvider>
     </>
   )
 }

@@ -26,11 +26,25 @@ export const Container = styled.div`
   border: 1px solid rgba(255, 255, 255, 0.125);
   width: calc(60% - 100px);
 
-  @media screen and (min-width: 768px) {
+  @media screen {
     transition: transform 0.2s ease-in-out;
     &:hover {
       transform: scale(1.02);
     }
+  }
+
+  @media ${(props) => props.theme.breakpoints.ml} {
+    grid-column-gap: 1rem;
+    width: calc(60% - 10px);
+  }
+
+  @media ${(props) => props.theme.breakpoints.md} {
+    grid-column-gap: 1rem;
+  }
+
+  @media ${(props) => props.theme.breakpoints.sm} {
+    grid-column-gap: .6rem;
+    width: 92%;
   }
 `
 
@@ -43,6 +57,14 @@ export const H1 = styled.h1`
   font-size: 30px;
   padding-top: .2rem;
   padding-left: .2rem;
+
+  @media ${(props) => props.theme.breakpoints.ml} {
+    font-size: 20px;
+  }
+
+  @media ${(props) => props.theme.breakpoints.sm} {
+    font-size: 18px;
+  }
 `
 
 export const H2 = styled.h2`
@@ -56,20 +78,41 @@ export const H2 = styled.h2`
   font-size: 25px;
 `
 
-export const ipnImage = {
-  height: '100%',
-  width: '90px',
-  position:'relative',
-  paddingTop: '15px',
-  left: '10px',
-  padding: '10px'
-};
+export const IpnImage = styled.img`
+  height: 100%;
+  width: 90px;
+  position: relative;
+  padding-top: 15px;
+  left: 10px;
+  padding: 10px;
 
-export const upiitaIcon = {
-  height: "100%",
-  width: "70px",
-  position: "relative",
-  right: "0px",
-  left: '10px',
-  padding: "10px"
-};
+  @media ${(props) => props.theme.breakpoints.sm} {
+    padding: 1px;
+    padding-top: 17px;
+    width: 85px;
+  }
+`
+
+// export const ipnImage = {
+//   height: '100%',
+//   width: '90px',
+//   position:'relative',
+//   paddingTop: '15px',
+//   left: '10px',
+//   padding: '10px'
+// };
+
+export const UpiitaIcon = styled.img`
+  height: 100%;
+  width: 70px;
+  position: relative;
+  right: 1px;
+  left: 10px;
+  padding: 10px;
+
+  @media ${(props) => props.theme.breakpoints.sm} {
+    padding-right: 10px;
+    padding-top: 17px;
+    width: 65px;
+  }
+`

@@ -1,4 +1,4 @@
-import { Container, H1, Div1, ipnImage, upiitaIcon } from "./HeaderStyles"
+import { Container, H1, Div1, IpnImage, UpiitaIcon } from "./HeaderStyles"
 
 export default function Header() {
   return (
@@ -10,8 +10,8 @@ export default function Header() {
       >
         <Container>
           <H1>ORBSLAM2 3D Map Plotter</H1>
-          <img src="img/IPN_LOGO.webp" style={ipnImage} alt='IPN_LOGO'/>
-          <img src="img/upiitaIcon.png" style={upiitaIcon} alt='upiitaIcon'/>
+          <IpnImage src="img/IPN_LOGO.webp" alt='IPN_LOGO'/>
+          <UpiitaIcon src="img/upiitaIcon.png" alt='upiitaIcon'/>
         </Container>
       </Div1>
   )
