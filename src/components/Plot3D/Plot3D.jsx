@@ -45,7 +45,7 @@ export default function Plot3D({resetAnimation, data, layout }) {
             <li>Mouse Scroll: zoom.</li>
             <li>If the map has been modified (GitRepo), just reload the
                 page to view the changes (may take up to 5 minutes).</li>
-            <li>On the right side of the graph you can show or hide some
+            <li>On the top side of the graph you can show or hide some
                 parameters by clicking on the element name.</li>
             <li>At the bottom of the graph you can change the size of the points.</li>
             <li>The map can be downloaded as an image in the top menu of the graph.</li>

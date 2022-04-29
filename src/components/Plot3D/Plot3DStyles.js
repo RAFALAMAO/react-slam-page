@@ -92,6 +92,7 @@ export const satelliteView = {
   display: 'block',
   marginLeft: 'auto',
   marginRight: 'auto',
+  marginBottom: '10px',
   width: '68%',
   borderRadius: '12px'
 }

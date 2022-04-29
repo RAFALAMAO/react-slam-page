@@ -35,7 +35,7 @@ export function formatData(rows) {
   const axesLine = false;
 
   const mapaDePuntos = {
-    name: "Cloud map",
+    name: "Cloud Map",
     x: formatRaw(rows, 'y'),
     y: formatRaw(rows, 'x'),
     z: formatRaw(rows, 'z'),
@@ -49,7 +49,7 @@ export function formatData(rows) {
   };
 
   const mapaDePuntosMediano = {
-    name: "Cloud map",
+    name: "Cloud Map",
     x: mapaDePuntos.x,
     y: mapaDePuntos.y,
     z: mapaDePuntos.z,
@@ -63,7 +63,7 @@ export function formatData(rows) {
   };
 
   const mapaDePuntosGrande = {
-    name: "Cloud map",
+    name: "Cloud Map",
     x: mapaDePuntos.x,
     y: mapaDePuntos.y,
     z: mapaDePuntos.z,
@@ -90,7 +90,7 @@ export function formatData(rows) {
   };
 
   const startFrame = {
-    name: "Start frame",
+    name: "Start Frame",
     x: [trayectoria.y[0]],
     y: [trayectoria.x[0]],
     z: [trayectoria.z[0]],
@@ -116,7 +116,7 @@ export function formatData(rows) {
   }
 
   const endFrame = {
-    name: "End frame",
+    name: "End Frame",
     x: [trayectoria.y[nFrames - 1]],
     y: [trayectoria.x[nFrames - 1]],
     z: [trayectoria.z[nFrames - 1]],
@@ -172,18 +172,28 @@ export function formatData(rows) {
   const layout = {
     autosize: true,
     dragmode: "orbit",
-    title: "Obtained Map",
+    // title: "Obtained Map",
     font: {
-      color: "rgb(255, 255, 255)",
+      // color: "rgb(255, 255, 255)",
+      color: "rgb(240, 248, 255)",
+      family: 'Space Grotesk'
     },
-    paper_bgcolor: "rgb(0, 0, 0)",
+    paper_bgcolor: "rgb(10, 10, 17)",
     showlegend: true,
     height: 700,
+    legend: {
+      // bgcolor: "rgb(10, 10, 170)",
+      bordercolor: "rgb(30, 50, 70)",
+      borderwidth: 1,
+      orientation: "h",
+      x: 0,
+      y: 1
+    },
     margin: {
-      l: 20,
-      r: 50,
+      l: 10,
+      r: 10,
       b: 10,
-      t: 50,
+      t: 40,
       pad: 1,
     },
     scene: {
@@ -195,8 +205,8 @@ export function formatData(rows) {
       camera: {
         center: {
           x: 0,
-          y: 0.05,
-          z: 0,
+          y: 0.02,
+          z: 0.02,
         },
         eye: {
           x: -0.5,
@@ -215,30 +225,38 @@ export function formatData(rows) {
     },
     sliders: [
       {
-        pad: { t: 30 },
-        len: 0.2,
+        // bordercolor: "rgb(30, 50, 70)",
+        bordercolor: "rgb(10, 80, 105)",
+        borderwidth: 1,
+        // bgcolor: "rgb(10, 130, 135)",
+        bgcolor: "rgb(0, 0, 35)",
+        pad: {
+          t: 30
+        },
+        len: 280,
+        lenmode: "pixels",
         currentvalue: {
           xanchor: "middle",
           x: 0,
           y: 0,
-          prefix: "Points Size: ",
+          prefix: "Point Size: ",
           font: {
-            size: 10,
+            size: 11,
           },
         },
         steps: [
           {
-            label: "small",
+            label: "Small",
             method: "restyle",
             args: ["visible", [true, false, false, true, true, true, true]],
           },
           {
-            label: "med",
+            label: "Med",
             method: "restyle",
             args: ["visible", [false, true, false, true, true, true, true]],
           },
           {
-            label: "high",
+            label: "High",
             method: "restyle",
             args: ["visible", [false, false, true, true, true, true, true]],
           },
